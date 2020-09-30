@@ -4,6 +4,7 @@ import pyttsx3
 import wolframalpha
 import wikipedia
 import webbrowser
+import numpy
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
